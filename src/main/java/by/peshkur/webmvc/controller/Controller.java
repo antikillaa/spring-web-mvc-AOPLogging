@@ -62,7 +62,6 @@ public class Controller {
     public String draftUser(@RequestBody Customer customer) {
 
         customerService.create(customer);
-
         return ApiResponse.SUCCESS;
     }
 
